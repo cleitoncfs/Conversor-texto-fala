@@ -1,0 +1,12 @@
+PYTHON-CONVERSAO-TEXTO-VOZ/
+  ├── app.py
+  ├── conversao.py
+  ├── Estrutura.txt
+  ├── templates/
+  │   └── index.html
+  ├── static/
+  │   ├── audio/      # (esta pasta é onde serão salvos os arquivos de áudio gerados)
+  │   ├── css/
+  │   │   └── style.css
+  │   └── js/
+  │       └── script.js

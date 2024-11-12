@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversor de Texto para Fala</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Conversor de Texto para Fala</h1>
+      <form id="textForm">
+        <label for="text">Digite o texto:</label>
+        <textarea id="text" name="text" rows="4" required></textarea>
+        <button type="submit">Converter para Fala</button>
+      </form>
+      <audio id="audioPlayer" controls hidden></audio>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+  </body>
+</html>
