@@ -26,7 +26,7 @@ body {
 
 h1 {
   font-size: 1.8em;
-  color: #4059e2;
+  color: #3cbd87;
   margin-bottom: 20px;
 }
 
@@ -48,7 +48,7 @@ textarea {
 
 button {
   padding: 10px 20px;
-  background-color: #4059e2;
+  background-color: #3cbd87;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -58,5 +58,5 @@ button {
 }
 
 button:hover {
-  background-color: #4059e2;
+  background-color: #2a9d6a;
 }
